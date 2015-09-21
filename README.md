@@ -3,6 +3,14 @@
 [Professor Rosalind Eeles’](http://www.icr.ac.uk/our-research/researchers-and-teams/professor-rosalind-eeles) Oncogenetics Team aims to translate laboratory findings about genetic risk factors for cancer, particularly prostate cancer, into the clinic.
 
 # Locus Explorer
+Locus Explorer: a user-friendly tool for integrated visualisation of genetic association data and biological annotations. Tokhir Dadaev<sup>1</sup>, Daniel A Leongamornlert<sup>1</sup>, Edward J Saunders<sup>1</sup>, Rosalind Eeles<sup>1,2</sup> , Zsofia Kote-Jarai<sup>1</sup>   
 
-We developed [Locus Explorer](https://github.com/oncogenetics/LocusExplorer) a Shiny R Application – a web application framework for R – for locus plots used in XXX manuscript. Locus Explorer can be run locally using R studio with necessary packages installed, and it can also be run on our server at XXX.icr.ac.uk. The code is be [available on GitHub](https://github.com/oncogenetics/LocusExplorer). The application is interactive that includes selecting and zooming on the locus, annotation tracks, and downloading the resulting plots, and the data used for plotting. Data for plotting is stored in SQLite database which is accessed using R scripts. Plots are displayed mainly using RStudio, ggplot and ggbio. The application is on Beta stage, with most functionality in place and with performance issues. We are continuously working on additional minor features and for future versions the main focus will be speed of plotting process...
+<sup>1</sup>Department of Genetics and Epidemiology, The Institute of Cancer Research, London, UK   
+<sup>2</sup>Royal Marsden NHS Foundation Trust, London, UK
 
+#### Abstract
+**Summary:** In this article we present Locus Explorer, a data visualisation and exploration tool for genetic association data. Locus Explorer is written in R using the Shiny library, providing access to powerful R-based functions through a simple user interface. Locus Explorer allows users to simultaneously display genetic, statistical and biological data in a single image and allows dynamic zooming and customisation of the plot features. Publication quality plots may be downloaded in a variety of file formats.   
+**Availability and implementation:** Locus Explorer is open source and runs through R and a web browser. It is available at https://github.com/oncogenetics/LocusExplorer, where user guides and example data are also provided.
+
+# PSA Velocity
+...
